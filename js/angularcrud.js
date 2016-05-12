@@ -28,12 +28,10 @@ $scope.createAnimal = function(file){
       file.result = response.data;
     });
   }, function (response) {
-    //if (response.status > 0)
-      //$scope.errorMsg = response.status + ': ' + response.data;
+  
   }, function (evt) {
 
-    // Math.min is to fix IE which reports 200% sometimes
-    //file.progress = Math.min(100, parseInt(100.0 * evt.loaded / evt.total));
+
   });
 
 
@@ -46,7 +44,7 @@ $scope.getAll = function(){
       $scope.idAnimal = response.records;
   });
 }
-// delete product
+
 $scope.atualizarAnimal = function(d){
 
 
@@ -75,8 +73,7 @@ swal({   title: "Você tem certeza?",
        closeOnCancel: false },
        function(isConfirm){
        if (isConfirm) {
-        // if(confirm("Are you sure?")){
-// post the id of product to be deleted
+
            $http.post('php/removerAnimais.php', {
                'id' : id
            }).success(function (data, status, headers, config){
@@ -84,7 +81,7 @@ swal({   title: "Você tem certeza?",
                swal("Deletado!", "O Animal foi removido.", "success");
                $scope.getAll();
            });
-        //}
+
 
 
             }
