@@ -1,0 +1,38 @@
+Site: Adote hoje!
+
+Homepage: navbar e search bar (vc quer adotar gato ou cachorro?) (em cima da pagina)
+noticias estilo em flipboard sobre animais
+fotos de cachorro e gato cadastrados embaixo
+
+barra deslogada - Home Contato Sobre nos Foruns filtros de busca Pesquisa e Login
+barra logada - Home Contato Sobre nos Foruns Conta [notificacoes em mensagens, animais cadastrados caso haja alguma solicitacao de adocao, animais marcados caso o status deles mudem](Mensagens, animais cadastrados, cadastro de animais, animais adotados, amigos, animais marcados) Pesquisa
+----
+backend - usuarios podem adicionar bichos para adocao
+	  usuarios podem deletar bichos
+	  usuarios podem editar as informacoes dos animais
+	  usuarios podem solicitar a adocao
+	  usuarios podem procurar animais
+
+seria melhor criar um admin geral para controlar os cadastros dos usuarios
+animais mudam de estado para adotados ou esperando adocao. A palavra adotado aparece no meio da foto do bicho em verde e cancela o botao de adotar, mostrando apenas as informacoes e o nome de quem adotou ("obrigado, fulano!" no estilo kadoateria do neopets a nao ser que o usuario solicite anonimidade na hora da adocao).
+
+wallapop baseado em area.
+
+Nao se pode cadastrar/procurar animais por raca pois nao eh o foco do projeto. Pode se pesquisar por locais e por caracteristicas de nao agressivo.
+
+O foco eh a adocao.
+Perguntar sobre o comportamento do animal, com uma pergunta radio button se esse animal eh agressivo ou nao e se esta doente ou nao (pedir descricao sobre a doenca).
+"Quem ve raca, nao ve coracao!"
+
+Falhas de seguranca
+
+- id do animal sendo passado e deletado/modificado livremente
+- remover imagem do animal quando ele for removido
+- deve ter um captcha para insercao do animal
+- dropdown so funciona no chrome
+- nao aceitar objetos q nao sejam imagem ja no javascript
+- limite de caracteres tanto na hora de cadastrar como na hora de editar
+- editar nao deve permitir que o usuario exclua todo o texto do campo.
+- caso o usuario mudar o valor da select options, isso nao eh detectado
+- layout desproporcional no firefox
+- imagem obrigatoria.

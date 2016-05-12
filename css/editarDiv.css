@@ -1,0 +1,18 @@
+.resultContainer {}
+  section {
+
+      margin: auto;
+    
+  }
+.textBoxContainer{border:0px;}
+.viewThisResult {bottom:40px;left:380px;}
+.resultContainer .viewThisResult {
+    display: none;
+}
+.resultContainer:hover .viewThisResult {
+    display: inline;
+}
+.resultContainer:hover .textBoxContainer {
+
+  border:1px solid blue;
+}

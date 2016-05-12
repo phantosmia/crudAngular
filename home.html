@@ -1,0 +1,354 @@
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<body>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Adote hoje!</title>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" style="padding-top:23px;" href="#">Adote hoje!</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home.html" style="padding-top:23px;">Home</a></li>
+        <li><a href="#" style="padding-top:23px;">Contato</a></li>
+      <!--  <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <select class="form-control" style="width: 200px ">
+                  <option data-image="Imagens/Icones/Paw-25.png">Todos</option>
+                  <option data-image="Imagens/Icones/Dog-25.png">Cães</option>
+                  <option  data-image="Imagens/Icones/Cat-25.png">Gatos </option>
+
+          </select>
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+        <a href="" style="margin-left: 20px;"><img src="Imagens/Icones/Settings-25.png"></a>
+
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><p class="navbar-text" style="">Deseja logar ou criar uma conta?</p></li>
+        <li class="dropdown">
+          <a href="#" style="padding-top:23px;" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                ou
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Endereço de e-mail</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="E-mail" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Senha</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Senha" required>
+                                             <div class="help-block text-right"><a href="">Esqueceu a senha?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> Mantenha-me logado
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								Novo aqui? <a href="#"><b>Junte-se a nós!</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<script src="js/index.js"></script>
+  <script src="js/jsmin2.0.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.dd.min.js"></script>
+<script language="javascript">
+$(document).ready(function(e) {
+try {
+$("body select").msDropDown();
+} catch(e) {
+alert(e.message);
+}
+});
+</script>
+
+<link rel='stylesheet prefetch' href='css/bootstrap2.3.1.css'>
+<link rel="stylesheet" href="css/style.css"/>
+
+  <link rel="stylesheet" type="text/css" href="css/fancy.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/dd.css" />
+
+<!-- fim da navbar-->
+    <meta charset="UTF-8">
+<!-- home-->
+    <div class="container-fluid1">
+<div class="row-fluid">
+<div class="span12">
+    <div class="carousel slide" id="myCarousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                    <ul class="thumbnails">
+                        <li class="span3">
+                            <div class="thumbnail">
+
+                            <a href="#"><img src="Imagens/Animais/cao1.jpg" alt=""></a>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                              </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/cao2.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/cao3.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/cao4.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                    </ul>
+                      <ul class="thumbnails">
+                    <li class="span3">
+                        <div class="thumbnail">
+                            <a href="#"><img src="Imagens/Animais/cao5.jpg" alt=""></a>
+                        </div>
+                        <div class="caption">
+                            <h4>Praesent commodo</h4>
+                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                              <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                        </div>
+                    </li>
+                    <li class="span3">
+                        <div class="thumbnail">
+                            <a href="#"><img src="Imagens/Animais/cao6.jpg" alt=""></a>
+                        </div>
+                        <div class="caption">
+                            <h4>Praesent commodo</h4>
+                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                            <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                        </div>
+                    </li>
+                    <li class="span3">
+                        <div class="thumbnail">
+                            <a href="#"><img src="Imagens/Animais/cao7.jpg" alt=""></a>
+                        </div>
+                        <div class="caption">
+                            <h4>Praesent commodo</h4>
+                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                              <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                        </div>
+                    </li>
+                    <li class="span3">
+                        <div class="thumbnail">
+                            <a href="#"><img src="Imagens/Animais/cao8.jpg" alt=""></a>
+                        </div>
+                        <div class="caption">
+                            <h4>Praesent commodo</h4>
+                    <p>Nullam Condimentum Nibh Etiam Sem</p>
+                              <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                        </div>
+                    </li>
+
+                  </ul>
+              </div><!-- /Slide1 -->
+            <div class="item">
+                    <ul class="thumbnails">
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/gato1.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                              <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/gato2.png" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/gato3.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/gato4.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                				<p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="thumbnails">
+                        <li class="span3">
+                            <div class="thumbnail">
+                              <a href="#"><img src="Imagens/Animais/gato5.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                        <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/gato6.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                        <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/gato7.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                        <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                        <li class="span3">
+                            <div class="thumbnail">
+                                <a href="#"><img src="Imagens/Animais/gato8.jpg" alt=""></a>
+                            </div>
+                            <div class="caption">
+                                <h4>Praesent commodo</h4>
+                        <p>Nullam Condimentum Nibh Etiam Sem</p>
+                                  <a class="btn btn-danger btn-mini" href="#">&raquo; Mais informações</a>
+                            </div>
+                        </li>
+                    </ul>
+
+              </div><!-- /Slide2 -->
+
+
+
+
+        </div>
+
+        <div class="control-box1">
+            <a data-slide="prev" href="#myCarousel" class="carousel-control1 left">‹</a>
+            <a data-slide="next" href="#myCarousel" class="carousel-control1 right">›</a>
+        </div><!-- /.control-box -->
+
+    </div><!-- /#myCarousel -->
+
+</div><!-- /.span12 -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+
+
+<!-- Delete This -->
+<
+
+
+
+
+
+
+  </body>
+</html>
+
+<!--<div id="slider" style="padding-top:20px;">
+<ul class="pgwSlider">
+    <li><img src="Imagens/Noticias/cao1.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+    <li><img src="Imagens/Noticias/cao2.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+      <li><img src="Imagens/Noticias/gato1.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+  <li><img src="Imagens/Noticias/gato2.png" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+</ul>
+</div> -->
+
+
+<!--item slider -->
+
+
+    <!-- Insert to your webpage before the </head> -->
+  <!--
+    <script src="carouselengine/amazingcarousel.js"></script>
+    <link rel="stylesheet" type="text/css" href="carouselengine/initcarousel-1.css">
+    <script src="carouselengine/initcarousel-1.js"></script>
+
+    <!-- End of head section HTML codes -->
